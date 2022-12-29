@@ -1,0 +1,38 @@
+.header {
+  height: 40px;
+  width: 100%;
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  padding-left: 0;
+  flex-direction: row;
+  color: #ffffff;
+  background-color: #32127a;
+  justify-content: space-around;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.link {
+  list-style-type: none;
+  margin-right: 15px;
+  color: #ffffff;
+  font-family: Roboto;
+}
+
+.heading {
+  color: #ffffff;
+  font-family: Roboto;
+}
+
+@media screen and (max-width: 576px) {
+  .list {
+    display: none;
+  }
+  .header {
+    width: 100%;
+  }
+}
